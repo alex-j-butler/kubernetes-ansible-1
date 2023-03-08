@@ -1,6 +1,6 @@
 [control_planes]
-cp1 ansible_host=kube-cp1.int.alex-j-butler.com
+cp1 ansible_user=alex ansible_host=kube-cp1.int.alex-j-butler.com
 
 [nodes]
-node1 ansible_host=kube-worker1.int.alex-j-butler.com
-node2 ansible_host=kube-worker2.int.alex-j-butler.com
+node1 ansible_user=alex ansible_host=kube-worker1.int.alex-j-butler.com
+node2 ansible_user=alex ansible_host=kube-worker2.int.alex-j-butler.com
